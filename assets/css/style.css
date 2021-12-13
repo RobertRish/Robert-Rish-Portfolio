@@ -4,13 +4,26 @@
 
 .section-title {
     display: flex;
-    background-color: bisque;
+    background-color: blue;
+    float: left;
+    width: 30%;
 }
 
 .section-right {
+    display: flex;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-color: red;
+}
 
+img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    display: flex;
+    font-weight: bold;
 }
 
 header nav ul {
@@ -18,18 +31,18 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
 
 section {
-    display: flexbox;
+    display: flex;
+    justify-content: start;
+}
+
+#project-1 {
+    display: flex;
+    width: fit-content;
 }
 
 article {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
